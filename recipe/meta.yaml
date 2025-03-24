@@ -1,5 +1,5 @@
 {% set name = "scriv" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 30ae9ff8d144f8e0cf394c4e1d379542f1b3823767642955b54ec40dc00b32b6
+  sha256: 662e6149ecaf2d4688dcc64ab62feb3336b5a63173801bb712f81f757098ce83
 
 build:
   entry_points:
     - scriv = scriv.cli:cli
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
