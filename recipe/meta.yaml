@@ -20,7 +20,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - python-build
   run:
     - python >={{ python_min }}
     - attrs
