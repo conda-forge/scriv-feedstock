@@ -49,6 +49,7 @@ about:
     in a CHANGELOG file.
   dev_url: https://github.com/nedbat/scriv
   license: Apache-2.0
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
