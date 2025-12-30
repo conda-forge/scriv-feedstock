@@ -1,5 +1,5 @@
 {% set name = "scriv" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c1a8be6351d03692e5e75784deea0d8f11b2c90f91be18b0fb3a375555b525e
+  sha256: 7b1a105dd411ac541998250fc8594742419f94cee984ca1257c5ebf5af21918b
 
 build:
   entry_points:
