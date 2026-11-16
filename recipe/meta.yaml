@@ -1,13 +1,13 @@
 {% set name = "scriv" %}
-{% set version = "1.8.0" %}
+{% set version = "1.8.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b1a105dd411ac541998250fc8594742419f94cee984ca1257c5ebf5af21918b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ae0ec6586de4c42994cd2019fde6e870c506a8d85a4eb830d9f53132f9e4eb7c
 
 build:
   entry_points:
